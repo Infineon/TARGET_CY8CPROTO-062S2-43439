@@ -13,7 +13,7 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 ### Kit Features:
 
 * Featuring the PSoC™ 6 CY8C62xA MCU (MPN: [CY8C624ABZI-S2D44](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c624abzi-s2d44/)): Ultra low power, high performance MCU based on the dual core CPU architecture of Arm® Cortex®-M4 and Arm® Cortex®-M0+, up to 2 MB of on-chip Flash, 1 MB of SRAM, built-in hardware and software security features, rich analog, digital, and communication peripherals
-* Wireless module(Murata 1YN) based on Infineon's AIROC™ CYW43439 single-chip combo device (2.4 GHz Wi-Fi 4 (802.11n) and Bluetooth® 5.2) for evaluating cloud connected applications with PSoC™ 6 as the Wi-Fi host MCU
+* Wireless module(Murata 1YN) based on Infineon’s AIROC™ CYW43439 single-chip combo device (2.4 GHz Wi-Fi 4 (802.11n) and Bluetooth® 5.2) for evaluating cloud connected applications with PSoC™ 6 as the Wi-Fi host MCU
 * Industry leading CAPSENSE™ featuring linear slider, buttons for prototyping elegant, robust capacitive touch-based user interfaces
 * Integrated on-board programmer / debugger, memory expansion through 512-Mb Quad-SPI NOR Flash, microSD card interface, PDM microphone, thermistor, push buttons, LEDs
 
@@ -60,7 +60,7 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 
 ## More information
 * [CY8CPROTO-062S2-43439 BSP API Reference Manual][api]
-* [CY8CPROTO-062S2-43439 Documentation](https://www.infineon.com/CY8CPROTO-062S2-43439)
+* [CY8CPROTO-062S2-43439 Documentation](http://www.infineon.com/CY8CPROTO-062S2-43439)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
 * [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
