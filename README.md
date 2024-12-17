@@ -2,9 +2,7 @@
 
 ## Overview
 
-The CY8CPROTO-062S2-43439 PSoC™ 62S2 Wi-Fi Bluetooth® Prototyping Kit is a low-cost hardware platform that enables design and debug of PSoC™ 6 MCUs. It comes with a Murata LBEE5KL1YN module, based on the CYW43439 combo device, industry-leading CAPSENSE™ for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad- SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.     
-**Note:**
-CY8CPROTO-062S2-43439 shares the same GPIO for the user button (USER BTN1) and the CYW43439 host wake up pin and it is connected to CYW43439 host wake up pin by default. So, in a Wi-Fi low power application,  the pin P0[4] cannot be used as a user button. If you wish to disable the host wake up feature in your application and use the user button, add the below line to the application Makefile: DEFINES+=CY_WIFI_HOST_WAKE_SW_FORCE=0.
+The CY8CPROTO-062S2-43439 PSOC™ 62S2 Wi-Fi Bluetooth® Prototyping Kit is a low-cost hardware platform that enables design and debug of PSOC™ 6 MCUs. It comes with a Murata LBEE5KL1YN module, based on the CYW43439 combo device, industry-leading CAPSENSE™ for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad- SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.
 
 ![](docs/html/board.png)
 
@@ -14,14 +12,14 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ### Kit Features:
 
-* Featuring the PSoC™ 6 CY8C62xA MCU (MPN: [CY8C624ABZI-S2D44](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c624abzi-s2d44/)): Ultra low power, high performance MCU based on the dual core CPU architecture of Arm® Cortex®-M4 and Arm® Cortex®-M0+, up to 2 MB of on-chip Flash, 1 MB of SRAM, built-in hardware and software security features, rich analog, digital, and communication peripherals
-* Wireless module(Murata 1YN) based on Infineon's AIROC™ CYW43439 single-chip combo device (2.4 GHz Wi-Fi 4 (802.11n) and Bluetooth® 5.2) for evaluating cloud connected applications with PSoC™ 6 as the Wi-Fi host MCU
+* Featuring the PSOC™ 6 CY8C62xA MCU (MPN: [CY8C624ABZI-S2D44](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c624abzi-s2d44/)): Ultra low power, high performance MCU based on the dual core CPU architecture of Arm® Cortex®-M4 and Arm® Cortex®-M0+, up to 2 MB of on-chip Flash, 1 MB of SRAM, built-in hardware and software security features, rich analog, digital, and communication peripherals
+* Wireless module(Murata 1YN) based on Infineon's AIROC™ CYW43439 single-chip combo device (2.4 GHz Wi-Fi 4 (802.11n) and Bluetooth® 5.2) for evaluating cloud connected applications with PSOC™ 6 as the Wi-Fi host MCU
 * Industry leading CAPSENSE™ featuring linear slider, buttons for prototyping elegant, robust capacitive touch-based user interfaces
 * Integrated on-board programmer / debugger, memory expansion through 512-Mb Quad-SPI NOR Flash, microSD card interface, PDM microphone, thermistor, push buttons, LEDs
 
 ### Kit Contents:
 
-* PSoC™ 62S2 Wi-Fi Bluetooth® Prototyping Board
+* PSOC™ 62S2 Wi-Fi Bluetooth® Prototyping Board
 * USB Type-A to Micro-B cable
 * Quick Start Guide
 
